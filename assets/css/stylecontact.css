@@ -7,7 +7,7 @@ header {
 	background-color: #ffffff;
 	border-color: #cccccc;
 	margin:none;
-	border-bottom:2px solid #d3d3d3;
+	border-bottom:solid #d3d3d3 2px;
 	height:76px;
 	width:100%;
 }
@@ -34,10 +34,11 @@ nav {
 	width:100px;
 	border-style:solid;
 	text-align: center;
-	border-left:1px solid #d3d3d3;
+	border-left:solid #d3d3d3 1px;
 	float:right;
 	margin-right: 330px;
 	margin-top:30px;
+
 }
 
 #portfolio {
@@ -46,7 +47,7 @@ nav {
 	border-style:solid;
 	float:right;
 	text-align: center;
-	border-left:1px solid #d3d3d3;
+	border-left:solid #d3d3d3 1px;
 	margin-top:30px;
 }
 
@@ -66,42 +67,39 @@ nav {
 #left {
 	background-color: #ffffff;
 	width:650px;
-	height:440px;
+	height:470px;
 	margin-left:120px;
 	margin-top: 45px;
 	float:left;
-	margin-bottom: 56px;
+	margin-bottom: 26px;
 }
 
 #left h2{
 	color: #08afa7;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 28px;
-	padding:30px;
-	font-weight: bold;
-	margin-left: 10px;
+	padding:25px;
+	margin-left: 0px;
 }
 
 #time {
 	border-top:3px solid #d3d3d3;
 	margin-left:25px;
 	margin-right:45px;
-	margin-top: 5px;
+	margin-top: 0px;
 	height:320px;
 	padding:10px;
 }
 
-#personal img{
-	height:160px;
-	width:190px;
-	float:left;
+#personal {
+color:gray;
+margin-top:14px;
 }
 
-p {
-	font-size:20px;
-	line-height: 130%
-
+input {
+	width:560px;
 }
+
 
 #right {
 	background-color: #ffffff;
