@@ -61,20 +61,20 @@ nav {
 } 
 
 #main {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 #left {
 	background-color: #ffffff;
 	width:650px;
-	height:470px;
+	height:495px;
 	margin-left:120px;
 	margin-top: 45px;
 	float:left;
 	margin-bottom: 26px;
 }
 
-#left h2{
+#left h2 {
 	color: #08afa7;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 28px;
@@ -94,19 +94,38 @@ nav {
 #personal {
 color:gray;
 margin-top:14px;
+border-color:#d3d3d3;
 }
 
 input {
 	width:560px;
 }
 
+#large {
+	width:565px;
+	height:150px;
+}
+
+#button {
+	width:100px;
+	height:35px;
+	background-color: #08afa7;
+	text-align: center;
+	color:white;
+	font-family: 'Georgia', Times, Times New Roman, serif;;
+	font-size:15px;
+	line-height: 35px;
+	position:relative;
+	bottom:4px;
+
+}
 
 #right {
 	background-color: #ffffff;
 	width:270px;
 	height:200px;
 	margin-right:350px;
-	margin-top: 30px;
+	margin-top: 45px;
 	margin-left:none;
 	float:right;
 }
@@ -149,11 +168,11 @@ footer {
 	clear:both;
 	width:100%;
 	background-color: #666666;
-	height:90px;
+	height:65px;
 	text-align:center;
 	color:#aaaab0;
 	margin-bottom:none;
-	font-size: 15px;
+	line-height: 65px;
+	font-size: 12px;
 	border-top:solid #08afa7 8px;
-	line-height: 90px;
 }

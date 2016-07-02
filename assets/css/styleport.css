@@ -7,7 +7,7 @@ header {
 	background-color: #ffffff;
 	border-color: #cccccc;
 	margin:none;
-	border-bottom:solid #d3d3d3 2px;
+	border-bottom:2px solid #d3d3d3;
 	height:76px;
 	width:100%;
 }
@@ -32,9 +32,8 @@ nav {
 #contact {
 	color:#777777;
 	width:100px;
-	border-style:solid;
 	text-align: center;
-	border-left:solid #d3d3d3 1px;
+	border-left:1px solid #d3d3d3;
 	float:right;
 	margin-right: 330px;
 	margin-top:30px;
@@ -44,17 +43,15 @@ nav {
 #portfolio {
 	color:#777777;
 	width:100px;
-	border-style:solid;
 	float:right;
 	text-align: center;
-	border-left:solid #d3d3d3 1px;
+	border-left:1px solid #d3d3d3;
 	margin-top:30px;
 }
 
 #about {
 	color:#777777;
 	width:100px;
-	border-style:solid;
 	float:right;
 	text-align: center;
 	margin-top:30px;
@@ -79,18 +76,16 @@ nav {
 	margin-left: 10px;
 }
 
-#time {
-	/*border:3px solid gray;*/
+#my_portfolio {
 	border-top:3px solid #d3d3d3;
 	margin-left:25px;
 	margin-right:45px;
 	margin-top: 0px;
-	height:505px;
+	height:500px;
 	padding:10px;
 }
 
 #one {
-	/*border:2px solid black;*/
 	height:510px;
 	width:220px;
 	float:left;
@@ -102,7 +97,6 @@ nav {
 	width:220px;
 	position:relative;
 	display:block;
-
 }
 
 #h1_one {
@@ -151,11 +145,10 @@ nav {
 }
 
 #two {
-	/*border:2px solid black;*/
 	height:475px;
 	width:220px;
 	float:right;
-	margin-right: 25px;
+	margin-right:25px;
 	position:relative;
 }
 
@@ -163,7 +156,6 @@ nav {
     height:160px;
 	width:220px;
 	display:inline-block;
-
 }
 
 #h1_four {
@@ -212,7 +204,6 @@ nav {
 }
 
 #five img {
-	
 	height:160px;
 	width:220px;
 	margin-left:55px;
@@ -226,7 +217,7 @@ nav {
 	width:270px;
 	height:200px;
 	margin-right:350px;
-	margin-top: 12px;
+	margin-top: 25px;
 	margin-left:none;
 	float:right;
 }

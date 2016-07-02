@@ -32,7 +32,6 @@ nav {
 #contact {
 	color:#777777;
 	width:100px;
-	border-style:solid;
 	text-align: center;
 	border-left:1px solid #d3d3d3;
 	float:right;
@@ -43,7 +42,6 @@ nav {
 #portfolio {
 	color:#777777;
 	width:100px;
-	border-style:solid;
 	float:right;
 	text-align: center;
 	border-left:1px solid #d3d3d3;
@@ -53,7 +51,6 @@ nav {
 #about {
 	color:#777777;
 	width:100px;
-	border-style:solid;
 	float:right;
 	text-align: center;
 	margin-top:30px;
@@ -73,7 +70,7 @@ nav {
 	margin-bottom: 56px;
 }
 
-#left h2{
+#left h2 {
 	color: #08afa7;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 28px;
@@ -82,7 +79,7 @@ nav {
 	margin-left: 10px;
 }
 
-#time {
+#content {
 	border-top:3px solid #d3d3d3;
 	margin-left:25px;
 	margin-right:45px;
@@ -98,9 +95,9 @@ nav {
 }
 
 p {
-	font-size:20px;
-	line-height: 130%
-
+	font-size:18px;
+	line-height: 180%;
+	color: #777777;
 }
 
 #right {
@@ -108,7 +105,7 @@ p {
 	width:270px;
 	height:200px;
 	margin-right:350px;
-	margin-top: 30px;
+	margin-top: 45px;
 	margin-left:none;
 	float:right;
 }
@@ -135,16 +132,16 @@ p {
 }
 
 #git {
-display:inline;
-margin-left: 22px;
+	display:inline;
+	margin-left: 22px;
 }
 
 #linked {
-display:inline;
+	display:inline;
 }
 
 #stacked { 
-display:inline;
+	display:inline;
 }
 
 footer {
@@ -155,7 +152,7 @@ footer {
 	text-align:center;
 	color:#aaaab0;
 	margin-bottom:none;
-	font-size: 15px;
+	font-size: 12px;
 	border-top:solid #08afa7 8px;
 	line-height: 90px;
 }
